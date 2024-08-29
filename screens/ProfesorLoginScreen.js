@@ -14,7 +14,7 @@ export default function ProfesorLoginScreen({ navigation }) {
     }
 
     // Simulación de autenticación (reemplazar con llamada a API real)
-    if (email === 'amai@gmail.com' && password === 'pas123') {
+    if (email === 'bachilleratoenartes5@gmai1.com' && password === 'f$K:6LLMn2bD') {
       Alert.alert('Éxito', 'Inicio de sesión exitoso');
       navigation.navigate('ProfesorSpecialtyScreen'); // Navegar a la pantalla de selección de especialidad
     } else {
