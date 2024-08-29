@@ -1,0 +1,47 @@
+{
+    "professors": [
+      {
+        "id": "prof1",
+        "name": "Profesor 1",
+        "specialty": "danza",
+        "quizzes": ["quiz1"],
+        "content": ["content1"],
+        "announcements": ["announcement1"]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "quiz1",
+        "title": "Quiz de Danza 1",
+        "description": "Descripción del quiz de danza 1",
+        "specialty": "danza",
+        "questions": [
+          {
+            "question": "¿Cuál es el paso básico de la danza?",
+            "type": "multiple-choice",
+            "options": ["Paso 1", "Paso 2", "Paso 3"],
+            "correctOption": "Paso 1"
+          }
+        ]
+      }
+    ],
+    "content": [
+      {
+        "id": "content1",
+        "title": "Video de Danza 1",
+        "description": "Descripción del video de danza 1",
+        "type": "video",
+        "specialty": "danza",
+        "url": "http://example.com/video1"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "announcement1",
+        "title": "Anuncio Importante",
+        "description": "Este es un anuncio importante para la especialidad de danza",
+        "specialty": "danza"
+      }
+    ]
+  }
+  
